@@ -28,4 +28,19 @@
             height: "100",
             width: 150
       }
+
+      //Record Type
+
+      type Person = Record<string, string>
+
+      const person: Person = {
+            name: "istiaq",
+            age: "30"
+      }
+
+      const newObject: Record<string, unknown> = {}
+
+
+
+
 }
