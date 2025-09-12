@@ -1,4 +1,6 @@
 {
+
+      //generic type with function
       type User = {
             name: string;
             isMarried: boolean
@@ -19,6 +21,8 @@
 
       const result4 = createTupleWithGeneric<string, { age: number, isMarried: boolean }>("Istiaq", { age: 30, isMarried: false })
 
+
+      //constraint
 
       const addCourse = <T extends { id: number; name: string; email: string }>(user: T) => {
             const course = "ML Course"
