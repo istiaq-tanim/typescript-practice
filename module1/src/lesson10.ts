@@ -41,6 +41,4 @@
       const newObject: Record<string, unknown> = {}
 
 
-
-
 }
